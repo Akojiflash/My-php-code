@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    /*margin-top:52px;*/
+   display: flex;
+    margin: 0 auto;
+}
+div{
+    padding-top: 46px;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+.grand_parent{
+    padding: 16px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    padding-top: 0;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 24px;
+    color: #5600A1;
+}
+.parent_container{
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+form{
+    padding-top: 0;
+    margin: 0 auto;
+    width: 596px;
+    height: 406px;
+    background: rgba(249,252,254,1);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    border-radius: 7px;
+}
+.container_b{
+    margin: 0 auto;
+    width: 333px;
+    height: 403px;
+    background: rgba(249,252,254,1);
+    border-radius: 20px;
+    margin-left: 24px;
+}
+.names{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+}
+label{
+    font-size: 16px;
+    font-family: Segoe UI Semibold,sans-serif;
+    color: #00A2FF;
+    padding-bottom: 8px;
+}
+.first_name{
+    padding-top: 0 ;
+}
+.lastname{
+    padding-top: 0 ;
+}
+form input[type="text"]{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1.8px solid #00A2FF ;
+    background-color: rgba(249,252,254,1) ;
+    color: #00A2FF;
+    padding-left: 8px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 162, 255, 10%));
+}
+form input[type="text"]:focus{
+    outline: none;
+}
+.email_dob{
+    display: flex;
+    flex-direction: row;
+}
+form input[type="email"],form input[type="date"] {
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1.8px solid #00A2FF ;
+    background-color: rgba(249,252,254,1) ;
+    color: #00A2FF;
+    padding-left: 8px;
+    padding-right: 8px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 162, 255, 10%));
+}
+form input[type="date"] {
+    width: 242px;
+}
+.date{
+    padding-top: 0;
+}
+.email{
+    padding-top: 0;
+}
+.email_dob{
+    padding-top: 16px;
+}
+form input[type="email"],form input[type="date"]:focus {
+    outline: none;
+}
+.heading_2{
+    padding-top: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5600A1;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+.psw_field{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+}
+form input[type="password"]{
+    width: 250px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1.8px solid #00A2FF ;
+    background-color: rgba(249,252,254,1) ;
+    color: #00A2FF;
+    padding-left: 8px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 162, 255, 10%));
+}
+form input[type="password"]:focus{
+    outline: none;
+}
+.password{
+    padding-top: 0;
+}
+.re_psw{
+    padding-top: 0;
+}
+p{
+    margin-top:16px;
+    margin-left: 24px;
+    color: red;
+    font-size: 12px;
+}
+.click_here{
+    color: #7F3891;
+}
+.already{
+    color: #00A2FF;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.btn_signin{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    padding: 0;
+
+}
+form input[type="submit"]{
+    margin: auto;
+    width: 260px;
+    height: 40px;
+    background: linear-gradient(45deg,#7f3891,#5600a1 );
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 16px;
+
+
+}
+form input[type="submit"]:hover{
+    background: linear-gradient(45deg,#9C67AD,#8041B8 );
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    cursor: pointer;
+
+}
+.signin{
+    margin-top: 0;
+    padding: 0;
+}
+.container_b{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.heading_3{
+    padding: 0;
+    /*margin: auto;*/
+    font-family: Roboto Medium, sans-serif;
+    font-size: 16px;
+    width: fit-content;
+    margin-left: 24px;
+    color: #7f3891;
+}
+#heading_3{
+    padding-top: 20px;
+}
+ul{
+
+    margin:  20px auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    color: #00A2FF;
+    font-size: 14px;
+    text-align: justify-all;
+}
+li{
+    margin-bottom: 8px;
+
+
+}
+.list{
+    padding-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}

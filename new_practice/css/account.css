@@ -1,0 +1,143 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.card-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.card {
+    margin-top: 20px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));;
+    border-radius: 27px;
+    flex: 1;
+    /* additional styles for the card element go here */
+    background-color: #F8F8F8;
+    margin-right: 100px;
+    width: 328px;
+    height: 289px;
+    font-family: Roboto, sans-serif;
+}
+
+.form {
+    width: 289px;
+    height: 328px;
+    background-color: #F8F8F8;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));;
+    border-radius: 27px;
+    flex: 1;
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    /* additional styles for the form element go here */
+}
+form input[type="email"], input[type="password"]{
+
+    margin: auto;
+    align-content: center;
+    height: 40px;
+    width: 257px;
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    /* color: #F8F8F8; */
+}
+form input[type="email"], input[type="password"]:focus{
+    border: 1.5px solid #ccc;
+    outline: none;
+}
+
+.input-field{
+    border: 1.5px solid #ccc;
+}
+h3{
+
+    font-size: 20px;
+    /*font-style: bold;*/
+    padding-top: 20px;
+    padding-left: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    width: fit-content;
+    text-align: left;
+}
+#email{
+    margin-top: 24px;
+    float: left;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    font-size: 14px;
+
+}
+.delete {
+    margin-top: 60px;
+    height: 40px;
+    width: 328px;
+    color: white;
+    background-color: red;
+    opacity: 50%;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+.update_button {
+    margin-top: 24px;
+    height: 40px;
+    width: 257px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+}
+.delete:hover {
+    background-color: darkred;
+    border: none;
+    cursor: pointer;
+}
+
+.update_button:hover {
+    background-color: rgb(29, 29, 29);
+    border: none;
+    cursor: pointer;
+}
+
+.name{
+    padding-top: 30px;
+    padding-left: 22px;
+    font-size: 14px;
+
+}
+hr{
+    width: 199px;
+    padding-left: 21px;
+    /*border: 0.5px solid;*/
+    height: 0.5px;
+    margin-top: 5px;
+    border: none;
+
+
+}
+p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+.c-email{
+    padding-top: 32px;
+    padding-left: 22px;
+    font-size: 14px;
+}
+.c-password{
+    padding-top: 32px;
+    padding-left: 22px;
+    font-size: 14px;
+}
+.delete_bt{
+    text-align: center;
+}
